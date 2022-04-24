@@ -1,5 +1,5 @@
 # Multiple Youtube uploads via API
-Many of my friends and other people around the forums have been complaining about slow upload times on youtube and how it is inconvinient to put a title, description and thumbnail on every video seperetly. The goal if this project is to reduce time and allow the user to edit and upload videos in bulk.
+Many of my friends and other people around the forums have been complaining about slow upload times on youtube and how it is inconvinient to put a title, description and thumbnail on every video seperetly. The goal if this project is to reduce time and allow the user to edit and upload videos in bulk via youtube api integration in a python program.
 
 *DONE*
 - Upload a video
