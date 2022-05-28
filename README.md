@@ -16,6 +16,8 @@ Many of my friends and other people around the forums have been complaining abou
 - Get best trending tags, based on the video category and title
 - Upload thumbnails
 - Delete videos on a channel in bulk
+-Put videos on a specific list
+-Update videos
 
 # Privacy
 This file is created for private and educational use only and is not intented to be shared or distributed. This project is mainly created to see the API integration capabilities on youtube platform via python programming language. If there is a demand for this kind of program a public release might be in the works but would first need to get approval from youtube.
