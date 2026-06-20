@@ -1,0 +1,23 @@
+# Credentials / secrets — never commit these
+client_secrets.json
+credentials.json
+*.token
+token.json
+oauth2.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Local video assets
+videos/*.mp4
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
