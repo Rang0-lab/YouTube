@@ -9,7 +9,7 @@ class Video:
     privacyStatus = "private"
 
     def getFileName(self, type):
-        for file in os.listdir("C:\\Users\\37120\\Desktop\\VisualStud\\videos"):
+        for file in os.listdir(os.environ.get("VIDEO_DIR", "videos")):
             if type == "video" and file.split(".", 1)[1] != "jpg":
                 return file
                 break

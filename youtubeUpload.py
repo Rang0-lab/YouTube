@@ -79,7 +79,8 @@ while loop<10:
    )
 
    # Call the API's videos.insert method to create and upload the video.
-   videoPath = "C:\\Users\\37120\\Desktop\\Cats\\cat\%s" % iteration + ".mp4" # C:\\Users\\37120\\Desktop\\VisualStud\\videos\
+   video_dir = os.environ.get("VIDEO_DIR", "videos")
+   videoPath = os.path.join(video_dir, "cat%s.mp4" % iteration)
    insert_request = youtube.videos().insert(
      part=','.join(body.keys()),
      body=body,
